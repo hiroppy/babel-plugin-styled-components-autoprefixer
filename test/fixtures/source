@@ -1,0 +1,8 @@
+styled.h1`
+  background: ${color};
+  display: flex;
+  border: 2px solid ${props => props.theme.main};
+  padding: ${(props) => {
+    props.theme.main
+  }};
+`;
