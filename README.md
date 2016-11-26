@@ -1,5 +1,10 @@
 # babel-plugin-styled-components-autoprefixer
 
+autoprefixer for [styled-components](https://github.com/styled-components/styled-components).
+I want to exclude autoprefixer from styled-componets.
+I think autoprefixer should be executed at bundle.
+However styled-componets has autoprefixer in a production codes....
+
 ### Input
 ```javascript
 styled.h1`

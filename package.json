@@ -8,7 +8,13 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "styled-components",
+    "babel",
+    "plugin",
+    "autoprefixer",
+    "postcss"
+  ],
   "homepage": "",
   "scripts": {
     "start": "babel samples/input.js -o samples/output.js",
